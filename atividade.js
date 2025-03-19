@@ -1,7 +1,7 @@
-function verficarPar(numero){
-    if(numero % 2 === 0) {
+function verficarPar(numero) {
+    if (numero % 2 === 0) {
         console.log('par');
-    }else{
+    } else {
         console.log('impar');
     }
 }
@@ -9,12 +9,15 @@ function verficarPar(numero){
 verficarPar(1);
 
 
-function calcular(numero1, numero2){
-    console.log("divisão , " + (numero1 / numero2) );
-    console.log("soma, " + (numero1 + numero2) );
-    console.log("multiplicação, " + (numero1 * numero2) );
-    console.log("subtração, " + (numero1 - numero2) );
+function calcular(numero1, numero2) {
+    console.log("divisão , " + (numero1 / numero2));
+    console.log("soma, " + (numero1 + numero2));
+    console.log("multiplicação, " + (numero1 * numero2));
+    console.log("subtração, " + (numero1 - numero2));
 
 }
 
-calcular(1,2);
+calcular(1, 2);
+
+for (let i = 10; i > 0; i--)
+    console.log("Número " + i)
