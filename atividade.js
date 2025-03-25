@@ -34,3 +34,11 @@ function contarCaracteres(str) {
 const texto = "Ontem";  
 const numeroDeCaracteres = contarCaracteres(texto);  
 console.log(numeroDeCaracteres);
+
+const carro = {  
+    marca: 'Ford',  
+    modelo: 'Maverick',  
+    ano: 2023  
+};  
+
+console.log(carro)
