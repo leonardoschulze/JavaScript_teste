@@ -26,3 +26,11 @@ for (let i = 10; i > 0; i--)
 let original = "Hello World";
 let reversed = original.split("").reverse().join("");
 console.log(reversed);
+
+function contarCaracteres(str) {  
+    return str.length;  
+}  
+
+const texto = "Ontem";  
+const numeroDeCaracteres = contarCaracteres(texto);  
+console.log(numeroDeCaracteres);
