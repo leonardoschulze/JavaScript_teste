@@ -27,40 +27,55 @@ let original = "Hello World";
 let reversed = original.split("").reverse().join("");
 console.log(reversed);
 
-function contarCaracteres(str) {  
-    return str.length;  
-}  
+function contarCaracteres(str) {
+    return str.length;
+}
 
-const texto = "Ontem";  
-const numeroDeCaracteres = contarCaracteres(texto);  
+const texto = "Ontem";
+const numeroDeCaracteres = contarCaracteres(texto);
 console.log(numeroDeCaracteres);
 
-const carro = {  
-    marca: 'Ford',  
-    modelo: 'Maverick',  
-    ano: 2023  
-};  
+const carro = {
+    marca: 'Ford',
+    modelo: 'Maverick',
+    ano: 2023
+};
 
 console.log(carro)
 
-function media(num1, num2, num3) {  
-    return (num1 + num2 + num3) / 3;  
-}  
-  
-const resultado = media(8, 12, 16);  
+function media(num1, num2, num3) {
+    return (num1 + num2 + num3) / 3;
+}
+
+const resultado = media(8, 12, 16);
 console.log(resultado);
 
-function mensagemPersonalizada(nome, mensagem = "Olá!") {  
-    console.log(mensagem, nome);  
-}  
-  
-mensagemPersonalizada("Maria");  
+function mensagemPersonalizada(nome, mensagem = "Olá!") {
+    console.log(mensagem, nome);
+}
+
+mensagemPersonalizada("Maria");
 mensagemPersonalizada("João");
 
-for (let i = 1; i <= 20; i++) {  
-    if (i % 3 === 0) {  
-        console.log(`${i} - Múltiplo de 3`);  
-    } else {  
-        console.log(`${i} - Não múltiplo de 3`);  
-    }  
-}  
+for (let i = 1; i <= 20; i++) {
+    if (i % 3 === 0) {
+        console.log(`${i} - Múltiplo de 3`);
+    } else {
+        console.log(`${i} - Não múltiplo de 3`);
+    }
+}
+
+function verificarPalindromo(palavra) {
+    reversed = palavra.split("").reverse().join("");
+    if (palavra === reversed)
+        {
+            console.log("Verdade");
+            return true;
+        }
+        console.log("Mentira")
+        return false;
+
+
+}
+
+verificarPalindromo('arara');
