@@ -42,3 +42,10 @@ const carro = {
 };  
 
 console.log(carro)
+
+function media(num1, num2, num3) {  
+    return (num1 + num2 + num3) / 3;  
+}  
+  
+const resultado = media(8, 12, 16);  
+console.log(resultado);
