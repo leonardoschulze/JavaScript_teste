@@ -56,3 +56,11 @@ function mensagemPersonalizada(nome, mensagem = "Olá!") {
   
 mensagemPersonalizada("Maria");  
 mensagemPersonalizada("João");
+
+for (let i = 1; i <= 20; i++) {  
+    if (i % 3 === 0) {  
+        console.log(`${i} - Múltiplo de 3`);  
+    } else {  
+        console.log(`${i} - Não múltiplo de 3`);  
+    }  
+}  
