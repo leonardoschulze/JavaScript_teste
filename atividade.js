@@ -49,3 +49,10 @@ function media(num1, num2, num3) {
   
 const resultado = media(8, 12, 16);  
 console.log(resultado);
+
+function mensagemPersonalizada(nome, mensagem = "Olá!") {  
+    console.log(mensagem, nome);  
+}  
+  
+mensagemPersonalizada("Maria");  
+mensagemPersonalizada("João");
