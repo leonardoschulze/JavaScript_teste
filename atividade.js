@@ -141,3 +141,9 @@ function atividade15(str) {
 }  
 
 atividade15("Ontem eu tomei banho");
+
+function atividade16(){
+    console.log("Frutas diferentes");
+    let frutas = prompt("Digite 5 frutas diferentes").split(",").map(String);
+    console.log(frutas[2]);
+}
