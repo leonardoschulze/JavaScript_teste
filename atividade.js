@@ -92,3 +92,9 @@ function verificarSinal(numero) {
 
 verificarSinal(10)
 verificarSinal(-5)
+
+function converterTemperatura(temperatura){
+    console.log((temperatura* 9/5) + 35, "fahrenheit");
+}
+
+converterTemperatura(10)
