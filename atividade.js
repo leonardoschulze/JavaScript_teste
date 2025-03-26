@@ -94,7 +94,7 @@ verificarSinal(10)
 verificarSinal(-5)
 
 function converterTemperatura(temperatura){
-    console.log((temperatura* 9/5) + 35, "fahrenheit");
+    console.log((temperatura* 9/5) + 32, "fahrenheit");
 }
 
 converterTemperatura(10)
@@ -108,3 +108,26 @@ while (i <= 100) {
 }  
 
 console.log("A soma dos números de 1 a 100 é: " + soma);
+
+function atividade14(){
+    console.log("Substituir palavra Azul por Vermelho!")
+
+    let texto = prompt('Digite uma frase ou texto com a palavra azul:');
+
+    console.log(texto.replace(/azul/g, "Vermelho"));
+}
+
+function atividade21(){
+
+    console.log("soma dos elementos de um Array");
+
+    let valores = prompt("Digite números separados por vírgula:").split(",").map(Number);
+
+    console.log("Soma:" , valores.reduce((acc, val) => acc + val , 0));
+}
+
+function atividade24(){
+    console.log("Capitalizar a primeira letra");
+    let texto = prompt("Digite uma palavra:");
+    console.log(texto.charAt(0).toUpperCase()+texto.slice(1));
+}
