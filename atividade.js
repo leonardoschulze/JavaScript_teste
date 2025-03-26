@@ -147,3 +147,9 @@ function atividade16(){
     let frutas = prompt("Digite 5 frutas diferentes").split(",").map(String);
     console.log(frutas[2]);
 }
+
+function atividade17(){
+    console.log("Seu nome");
+    let nome = prompt("Digite seu nome:")
+    console.log("Bem Vindo(a)" + nome)
+}
