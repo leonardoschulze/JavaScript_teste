@@ -131,3 +131,13 @@ function atividade24(){
     let texto = prompt("Digite uma palavra:");
     console.log(texto.charAt(0).toUpperCase()+texto.slice(1));
 }
+
+function atividade15(str) {  
+    if ((str.length) > 10) {  
+        console.log("A string tem mais de 10 caracteres.");  
+    } else {  
+        console.log("A string NÃO tem mais de 10 caracteres.");  
+    }  
+}  
+
+atividade15("Ontem eu tomei banho");
